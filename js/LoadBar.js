@@ -133,16 +133,16 @@ LoadBar.prototype.addText = function(){
       "<p>I know I can never recreate the splendor, magnificence, or beauty that I found in these majestic works, but I hope that this project will still remind you of the wonder you found in these moments. Those times when you could be anything, go anywhere, and find magic in the most fragile of places.</p>"
   ].join("\n");
 
-  this.loadInfoDiv.innerHTML = "<h1>Foreword</h1>"
+  this.loadInfoDiv.innerHTML = "<h1>Vorwort</h1>"
   this.loadInfoDiv.innerHTML += "<p>"
   this.loadInfoDiv.innerHTML += forward
   this.loadInfoDiv.innerHTML += "<br/>"
  // this.loadInfoDiv.innerHTML += ""
 
 
-  this.loadInfoDiv.innerHTML += "Runtime : 20 - 30 min <br/>"
-  this.loadInfoDiv.innerHTML += "Interaction : Click Logo to switch pages <br/>"
-  this.loadInfoDiv.innerHTML += "Requirements : Headphones<br/><br/>"
+  this.loadInfoDiv.innerHTML += "Zeit : 20 - 30 min <br/>"
+  this.loadInfoDiv.innerHTML += "Interaktion : Klicke Logo zum blättern <br/>"
+  this.loadInfoDiv.innerHTML += "Voraussetzung : Kopfhörer<br/><br/>"
   this.loadInfoDiv.id = 'experienceInfo'
   this.loadBarInfo.appendChild( this.loadInfoDiv );
   var dpr = window.devicePixelRatio || 1;
@@ -152,6 +152,13 @@ LoadBar.prototype.addText = function(){
 
   this.loadBarInfo.style.marginTop = offset + "px"
   //console.log( this.loadBarInfo.clientHeight )
+  
+  this.englishButton = document.createElement('div')
+  this.englishButton.id = 'englishButton'
+  this.englishButton.innerHTML = "ENGLISH";
+  this.englishButton.addEventListener( 'click' , function(){ window.location = 'http://cabbi.bo/enough'} , false );
+
+  this.loadBarInfo.appendChild( this.englishButton )
 
   this.frenchButton = document.createElement('div')
   this.frenchButton.id = 'frenchButton'
@@ -160,9 +167,8 @@ LoadBar.prototype.addText = function(){
 
   this.frenchButton.addEventListener( 'click' , function(){ window.location = 'http://cabbi.bo/enough-francais/'} , false );
 
+  
   this.loadBarInfo.appendChild( this.frenchButton )
-
-
 
 
   //element.id = 
@@ -340,7 +346,7 @@ LoadBar.prototype.onFinishedLoad = function(){
 
   this.startButton = document.createElement('div')
   this.startButton.id = 'startButton'
-  this.startButton.innerHTML = 'BEGIN'
+  this.startButton.innerHTML = 'START'
 
   this.startButton.addEventListener( 'click' , this.onStartButtonClick.bind(this) , false );
 
