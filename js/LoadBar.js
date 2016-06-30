@@ -129,8 +129,8 @@ LoadBar.prototype.addText = function(){
   
 
   var forward = [
-      "<p>It’s difficult to describe the joy that I found from picking up a picture book and reading it cover to cover. They let me explore galaxies, ride dinosaurs, slay dragons. They let me dig deep down into my own being as I wished upon a magic pebble, boarded a train bound for the north, or soared through the sky on a plane made from dough.</p>",
-      "<p>I know I can never recreate the splendor, magnificence, or beauty that I found in these majestic works, but I hope that this project will still remind you of the wonder you found in these moments. Those times when you could be anything, go anywhere, and find magic in the most fragile of places.</p>"
+  "<p>Welche Freude war es für mich, ein Bildbuch in die Hand zu nehmen und es von vorne bis hinten durchzublättern. Die Bücher ließen mich Galaxien entdecken, auf Dinosaurier reiten und Drachen töten. Sie berührten meine Seele tief während ich magische Steine beschwor, den Zug Richtung Norden bestieg oder durch den Himmel gleitete auf einem Flieger aus Teig.</p>",
+  "<p>Niemals werde ich in der Lage sein, die Pracht, Herrlichkeit und Schönheit dieser großartigen Werke nachzubilden. Und doch hoffe ich, dass dich dieses Projekt erinnern kann an die Wunder dieser Momente. An die Augenblicke, in denen es egal war, wer du bist oder wo du warst und du den Zauber der zerbrechlichsten Orte finden konntest.</p>",
   ].join("\n");
 
   this.loadInfoDiv.innerHTML = "<h1>Vorwort</h1>"
@@ -141,7 +141,7 @@ LoadBar.prototype.addText = function(){
 
 
   this.loadInfoDiv.innerHTML += "Zeit : 20 - 30 min <br/>"
-  this.loadInfoDiv.innerHTML += "Interaktion : Klicke Logo zum blättern <br/>"
+  this.loadInfoDiv.innerHTML += "Interaktion : Klicke auf das Logo zum Blättern <br/>"
   this.loadInfoDiv.innerHTML += "Voraussetzung : Kopfhörer<br/><br/>"
   this.loadInfoDiv.id = 'experienceInfo'
   this.loadBarInfo.appendChild( this.loadInfoDiv );
