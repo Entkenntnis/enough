@@ -1,9 +1,9 @@
 
 This is a german translation of the original story.
 Work to be done:
-  adding umlaute (ä ü ü, etc) to text bmp
-  writing textGerman.js
-  translating intro and menue
+- adding umlaute (ä ü ü, etc) to text bmp
+- writing textGerman.js
+- translating intro and menue
 
 
 
