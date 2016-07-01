@@ -2,7 +2,7 @@ var TEXT = {
 
 ALONE:[
 
-"Für meine Lehrer\n\nDie es irgendwie geschafft haben, mit mir auszuhalten,\nBesonders die zwei, die es am schwersten hatten:\n\nMama & Papa\n",
+"Für meine Lehrer\n\nDie es irgendwie geschafft haben, mit mir auszuhalten, besonders die zwei, die es am schwersten hatten:\n\nMama & Papa\n",
 
 "Als Mani erwachte, wusste sie gar nicht, wo sie war.\n\nEin weicher Meeresgrund funkelte unter ihr, eine kleine Insel in einer Welt voller Dunkelheit.\n\nSie schwamm, die Gestalt ihres Körpers langsam entdeckend.\n",
 "Die Leere um die Insel herum war so gewaltig, dass Mani nicht mal ihre eigenen Bewegungen bemerkte. Dennoch glitt sie weiter, entzückt vom Rascheln ihres Schweifs und der zarten Bewegung ihres Rückens.\n\nAls Mani sich weiter vom Licht entfernte, erlaubte ihr die Stille um sie herum zu denken und zu fragen: Was war sie? Wer war sie? Warum war sie? Und was gab es hier draußen noch?\n",
